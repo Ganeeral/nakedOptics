@@ -1,0 +1,153 @@
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.header__logo .logo__tablet {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 98;
+    display: none;
+    transition: 0.9s ease;
+}
+
+.menu-overlay.visible {
+    display: flex;
+}
+
+.menu-overlay ul {
+    list-style: none;
+    display: flex;
+    padding: 90px;
+    flex-direction: column;
+}
+
+.menu-overlay ul li {
+    margin-bottom: 15px;
+}
+
+.menu-overlay ul li a {
+    font-size: 18px;
+    color: #fff;
+    line-height: 21px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--bold);
+    font-weight: 600;
+}
+
+.menu-overlay ul li:nth-child(3) {
+    background: linear-gradient(135.40deg, rgb(255, 115, 36), rgb(238, 59, 40), rgb(218, 21, 0), rgb(238, 59, 40), rgb(254, 161, 74));
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+}
+
+nav a {
+    color: #0A0A0A;
+    line-height: 21px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--bold);
+    font-weight: 600;
+}
+
+.header__menu {
+    padding-right: 7%;
+    z-index: 99;
+}
+
+.headerMenu {
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 6px 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__button {
+    display: flex;
+}
+
+.header__button img {
+    cursor: pointer;
+}
+
+.header__button img:nth-child(2) {
+    display: none;
+}
+
+nav a:nth-child(3) {
+    background: linear-gradient(135.40deg, rgb(255, 115, 36), rgb(238, 59, 40), rgb(218, 21, 0), rgb(238, 59, 40), rgb(254, 161, 74));
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+}
+
+/* HEADER */
+
+@media screen and (min-width: 1024px) {
+
+    /* HEADER */
+
+    header {
+        padding: 24px 40px;
+    }
+
+    .header__logo .logo__tablet {
+        display: block;
+    }
+
+    .header__button img:nth-child(2) {
+        display: flex;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__logo .logo__mobile {
+        display: none;
+    }
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 57px;
+    }
+
+    /* HEADER */
+}

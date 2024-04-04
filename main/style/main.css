@@ -355,41 +355,7 @@ nav a:nth-child(3) {
 
 /* PREVIEW */
 
-
 @media screen and (min-width: 1024px) {
-
-    /* HEADER */
-
-    header {
-        padding: 24px 40px;
-    }
-
-    .header__logo .logo__tablet {
-        display: block;
-    }
-
-    .header__button img:nth-child(2) {
-        display: flex;
-    }
-
-    .header__menu {
-        display: none;
-    }
-
-    .header__logo .logo__mobile {
-        display: none;
-    }
-
-
-    nav {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 57px;
-    }
-
-
-    /* HEADER */
 
     /* BANNER */
 
@@ -439,3 +405,4 @@ nav a:nth-child(3) {
 
     /* PREVIEW */
 }
+
