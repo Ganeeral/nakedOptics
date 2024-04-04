@@ -243,7 +243,8 @@ nav a:nth-child(3) {
 
 .products {
     margin-top: 100px;
-    margin-left: 17px;
+    margin-left: 16px;
+    margin-right: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
