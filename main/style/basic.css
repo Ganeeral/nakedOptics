@@ -1,0 +1,42 @@
+:root {
+    --regular: DmSans-Regular, sans-serif;
+    --medium: DmSans-Medium, sans-serif;
+    --bold: DmSans-Bold, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: DmSans-Regular;
+    src: url('/resources/fonts/DMSans_18pt-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: DmSans-Medium;
+    src: url('/resources/fonts/DMSans_18pt-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: DmSans-Bold;
+    src: url('/resources/fonts/DMSans_24pt-Bold.ttf');
+    font-weight: 700;
+}
+
+body {
+    font-family: var(--regular);
+    background-color: #F6F6F6;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}

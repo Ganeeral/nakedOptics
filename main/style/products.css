@@ -1,0 +1,39 @@
+.products__title {
+    margin: 140px 0 85px 0;
+}
+
+.products__title h3 {
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    font-family: var(--bold);
+}
+
+.products__name h4 {
+    color: rgb(10, 10, 10);
+    font-size: 20 px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .products__title h3 {
+        font-size: 40px;
+    }
+
+    .products__title {
+        margin: 173px 0 85px 0;
+    }
+
+    .products__name h4 {
+        font-size: 28px;
+    }
+}
