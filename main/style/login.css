@@ -1,0 +1,126 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin: 155px 16px 80px 16px;
+    height: 55.8vh;
+}
+
+.login__title>h2 {
+    color: rgb(10, 10, 10);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: .4px;
+    text-align: center;
+}
+
+label {
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: .4px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+label a {
+    color: rgb(0, 154, 255);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: .4px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 300px;
+    max-width: 440px;
+    width: 100%;
+}
+
+input {
+    border: 0.5px solid rgb(136, 136, 136);
+    border-radius: 6px;
+    background: inherit;
+    padding: 12px 8px;
+    min-width: 300px;
+    max-width: 440px;
+    width: 100%;
+    outline: none;
+}
+
+.login__name,
+.login__pass {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+
+.login__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+    flex-direction: column;
+}
+
+form button {
+    border-radius: 4px;
+    background: rgb(10, 10, 10);
+    padding: 12px;
+    width: 100%;
+    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.login__other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login__other p {
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.login__other a {
+    color: rgb(10, 10, 10);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--medium);
+    line-height: 21px;
+    text-decoration-line: underline;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-underline-offset: 1px;
+}
+
+.login__other a:hover svg {
+    transform: translateX(-5px);
+    transition: .4s ease;
+}
+
+.login__other a svg {
+    transition: .4s ease;
+}
