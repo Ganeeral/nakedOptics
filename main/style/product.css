@@ -1,0 +1,243 @@
+.product {
+    margin: 55px 16px 0 16px;
+}
+
+.product__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.product__image {
+    margin-top: 40px;
+}
+
+.product__image img {
+    min-width: 288px;
+    max-width: 526px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product__base-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.product__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.product__about-head h3 {
+    color: rgb(10, 10, 10);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.product__about-other {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.product__price {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.product__reviews {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.product__reviews p {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.product__description p {
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.product__delivery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.delivery p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.delivery p span {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.refund {
+    margin-left: 26px
+}
+
+.refund p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.refund p span {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+
+/* PURCHASE */
+
+.purchase {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid rgb(224, 224, 224);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.85);
+    padding: 16px;
+    gap: 8px;
+}
+
+.purchase__order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.purchase__delivery {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.purchase__delivery svg {
+    display: none;
+}
+
+.purchase__delivery p {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    /* 14px */
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.purchase__delivery p span {
+    font-weight: 600;
+}
+
+.purchase__product-name h3 {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    font-family: var(--medium);
+    text-transform: uppercase;
+    display: none;
+}
+
+.purchase__product-price p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    /*20*/
+    font-family: var(--medium);
+    line-height: 100%;
+}
+
+.purchase__button {
+    width: 100%;
+    text-align: center;
+}
+
+.purchase__button button {
+    width: 100%;
+    border-radius: 3px;
+    background: linear-gradient(135.00deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 15.639%, rgba(255, 255, 255, 0) 40.043%), rgb(10, 10, 10);
+    padding: 16px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.purchase__button button p {
+    background: linear-gradient(90.00deg, rgb(225, 164, 230), rgb(36, 157, 253), rgb(167, 239, 80));
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+}
+
+/* PURCHASE */
+
+
+@media screen and (min-width: 1024px) {
+    .product {
+        margin-top: 88px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .product__container {
+        flex-direction: row;
+        height: 50vh;
+    }
+
+}

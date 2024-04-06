@@ -10,6 +10,7 @@ header {
     top: 0;
     z-index: 999;
     background-color: #fff;
+    border-bottom: 1px solid rgb(224, 224, 224);
 }
 
 .header__logo .logo__tablet {

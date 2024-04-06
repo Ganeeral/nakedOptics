@@ -94,6 +94,7 @@
     overflow-x: auto;
     scrollbar-width: none;
     border-radius: 6px;
+
 }
 
 .products__items::-webkit-scrollbar {
@@ -106,11 +107,18 @@
     width: 100%;
     border-radius: 6px;
     background-color: #fff;
+    overflow: hidden;
+    position: relative;
 }
 
 .products__item img {
     object-fit: cover;
     width: 100%;
+    transition:  transform .3s ease;
+}
+
+.products__item:hover img{
+    transform:scale(1.02);
 }
 
 .products__container {
