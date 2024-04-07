@@ -2,6 +2,7 @@
     --regular: DmSans-Regular, sans-serif;
     --medium: DmSans-Medium, sans-serif;
     --bold: DmSans-Bold, sans-serif;
+    --Baloo: Baloo;
 }
 
 * {
@@ -29,6 +30,11 @@
     font-family: DmSans-Bold;
     src: url('/resources/fonts/DMSans_24pt-Bold.ttf');
     font-weight: 700;
+}
+
+@font-face {
+    font-family: Baloo;
+    src: url('/resources/fonts/BalooBhai2-ExtraBold.ttf');
 }
 
 body {
