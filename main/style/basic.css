@@ -16,25 +16,25 @@
 
 @font-face {
     font-family: DmSans-Regular;
-    src: url('/resources/fonts/DMSans_18pt-Regular.ttf');
+    src: url('../resources/fonts/DMSans_18pt-Regular.ttf');
     font-weight: 400;
 }
 
 @font-face {
     font-family: DmSans-Medium;
-    src: url('/resources/fonts/DMSans_18pt-Medium.ttf');
+    src: url('../resources/fonts/DMSans_18pt-Medium.ttf');
     font-weight: 500;
 }
 
 @font-face {
     font-family: DmSans-Bold;
-    src: url('/resources/fonts/DMSans_24pt-Bold.ttf');
+    src: url('../resources/fonts/DMSans_24pt-Bold.ttf');
     font-weight: 700;
 }
 
 @font-face {
     font-family: Baloo;
-    src: url('/resources/fonts/BalooBhai2-ExtraBold.ttf');
+    src: url('../resources/fonts/BalooBhai2-ExtraBold.ttf');
 }
 
 body {
